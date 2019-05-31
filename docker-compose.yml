@@ -13,7 +13,7 @@ services:
     links:
       - db
     volumes:
-      - "./app:/app" #共有フォルダの設定
+      - "./app:/app"
     stdin_open: true
 
   db:

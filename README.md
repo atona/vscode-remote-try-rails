@@ -52,7 +52,7 @@ Some things to try:
         <<: *default
         database: app_production
         username: app
-        password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+        password: <%= ENV['APP_DATABASE_PASSWORD'] %>
       ```
  3. **Run**
     - Type `bundle install` from the terminal window.
